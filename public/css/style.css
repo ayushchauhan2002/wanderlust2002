@@ -1,0 +1,132 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #FFF6E9 !important;
+}
+.conatiner{
+    flex:1;
+}
+
+/* Navbar */
+.navbar{
+    height:5rem;
+    background-color: #99DBF5;
+    background-attachment: fixed;
+}
+.fa-compass{
+    color:#fe424d;
+    font-size: 2rem
+    ;
+}
+.nav-link{
+    color:#222222 !important;
+}
+
+.cred{
+    border: 1px solid #0d6efd !important;
+    background-color: #0d6efd !important;
+    border-radius: 10px;
+    margin-right:10px; 
+    color:white !important;
+}
+.cred:hover{
+    opacity: 0.9;
+}
+/* Footer  */
+.f-info-links a{
+    text-decoration: none;
+    color:#222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links, 
+.f-info-socials, 
+.f-info-brand{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right:1rem;
+}
+
+.f-info{
+    text-align: center;
+    height:8rem;
+    background-color: #aba8a892;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    margin-top: 1rem;
+}
+
+footer{
+    margin-top: auto;
+    width:100%;
+}
+
+/* Cards */
+.listing-card{
+    border:none !important;
+    margin-bottom: 2rem;
+    background-color: #FFF6E9 !important;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 1rem !important;
+}
+.card-text{
+    font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.1;
+    background-color: white;
+}
+
+/* new page */
+.add-btn{
+    background-color: #fe424d !important;
+    border:none !important;
+
+}
+
+/* edit page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border:none !important;
+}
+
+/* show page */
+.show-img{
+    height:30%;
+}
+
+.btns{
+   display: flex; 
+   margin-bottom: 2rem;
+}
+
